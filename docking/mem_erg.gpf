@@ -1,0 +1,15 @@
+npts 300 300 60                      # num.grid points in xyz
+gridfld receptor.mem_erg.maps.fld    # grid_data_file
+spacing 0.375                        # spacing(A)
+receptor_types A C H HD OA           # receptor atom types
+ligand_types C HD N OA               # ligand atom types
+receptor receptor.mem_erg.pdbqt      # macromolecule
+gridcenter -2.01 2.09 9.34           # xyz-coordinates or auto
+smooth 0.5                           # store minimum energy w/in rad(A)
+map receptor.mem_erg.C.map           # atom-specific affinity map
+map receptor.mem_erg.HD.map          # atom-specific affinity map
+map receptor.mem_erg.N.map           # atom-specific affinity map
+map receptor.mem_erg.OA.map          # atom-specific affinity map
+elecmap receptor.mem_erg.e.map       # electrostatic potential map
+dsolvmap receptor.mem_erg.d.map              # desolvation potential map
+dielectric -0.1465                   # <0, AD4 distance-dep.diel;>0, constant

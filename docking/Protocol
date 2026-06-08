@@ -1,0 +1,29 @@
+limonene CC1=CCC(CC1)C(=C)C (ROS in S.cer)  
+myrcene CC(=CCCC(=C)C=C)C
+α-pinene CC1=CCC2CC1C2(C)C
+
+synephrine CNCC(C1=CC=C(C=C1)O)O  
+
+nistatin CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O
+
+cmd.select("ERG", "/mem/MEMB and resn ERG")
+cmd.select("DYPC", "/mem/MEMB and resn DYPC")
+remove DYPC
+cmd.select("POPI", "/mem/MEMB and resn POPI")
+remove POPI
+cmd.select("POPS", "/mem/MEMB and resn POPS")
+remove POPS
+cmd.select("YOPE", "/mem/MEMB and resn YOPE")
+remove YOPE
+cmd.select("YOPC", "/mem/MEMB and resn YOPC")
+remove YOPC
+cmd.select("PYPC", "/mem/MEMB and resn PYPC")
+remove PYPC
+cmd.select("POPE", "/mem/MEMB and resn POPE")
+remove POPE
+cmd.select("PYPE", "/mem/MEMB and resn PYPE")
+remove PYPE
+cmd.select("YOPA", "/mem/MEMB and resn YOPA")
+remove YOPA
+
+http://www.mypresto5.com/ligandbox/cgi-bin/liginf.cgi?id=D00202&source=KEGG_DRUG
